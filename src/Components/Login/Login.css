@@ -1,0 +1,107 @@
+.Login-system {
+    width: 100%;
+}
+.Login-form {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.custom__form {
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    padding: 15px;
+    width: 40%;
+    margin: 0 auto;
+}
+.custom__form h1 {
+    margin: 0 0 10px 0;
+}
+.Rem-Frg {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 10px;
+}
+.forgot-pass, #check {
+    color: #d26a42;
+}
+.check {
+    margin-left: 8px;
+}
+label {
+    display: inline-block;
+    margin: 5px 0;
+}
+.Login-Reg-Link {
+    text-align: center;
+    margin-top: 15px;
+}
+.pointer {
+    cursor: pointer;
+    color: #d26a42;
+    margin-left: 8px;
+}
+
+
+
+#email, #UserName, #password, #confirmPassword {
+    border: 1px solid #d2d2d2;
+    border-radius: 6px;
+    width: 100%;
+    height: 35px;
+    outline: none;
+    padding: 6px 10px;
+}
+.btn-submit {
+    margin-top: 20px;
+    background: #d26a42;
+    border-radius: 6px;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid rgb(210, 106, 66);
+    height: 35px;
+    outline: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+
+.moreOptions {
+    margin: 20px 0;
+    text-align: center;
+}
+.socialSignIn {
+    text-align: center;
+}
+
+.GoogleSignIn-Btn, .GitHubSignIn-Btn {
+    margin-bottom: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    width: 30%;
+    color: #111;
+    font-size: 14px;
+    border: 1px solid rgb(184, 184, 184);
+    height: 35px;
+    outline: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.GoogleSignIn-Btn img, .GitHubSignIn-Btn img {
+    width: 16px;
+    height: 16px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .custom__form {
+        width: 90%;
+    }
+    .GoogleSignIn-Btn, .GitHubSignIn-Btn {
+        width: 90%;
+    }
+}

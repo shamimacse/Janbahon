@@ -1,0 +1,170 @@
+[
+	{
+		"id" : 1,
+		"name" : "Bike",
+		"IMGURL" : "https://i.ibb.co/hHsdCFC/Frame.png",
+		"Category" : [
+			{
+				"id" : "BDBIK1",
+				"CategoryName" : "Bike",
+				"Seat" : 2,
+				"Price" : 98,
+				"RideImage" : "https://i.ibb.co/hHsdCFC/Frame.png"
+			},
+			{
+				"id" : "BDBIK2",
+				"CategoryName" : "Bike",
+				"Seat" : 2,
+				"Price" : 120,
+				"RideImage" : "https://i.ibb.co/hHsdCFC/Frame.png"
+			},
+			{
+				"id" : "BDBIK3",
+				"CategoryName" : "Bike",
+				"Seat" : 1,
+				"Price" : 70,
+				"RideImage" : "https://i.ibb.co/hHsdCFC/Frame.png"
+			},
+			{
+				"id" : "BDBIK4",
+				"CategoryName" : "Bike",
+				"Seat" : 1,
+				"Price" : 90,
+				"RideImage" : "https://i.ibb.co/hHsdCFC/Frame.png"
+			},
+			{
+				"id" : "BDBIK5",
+				"CategoryName" : "Bike",
+				"Seat" : 2,
+				"Price" : 45,
+				"RideImage" : "https://i.ibb.co/hHsdCFC/Frame.png"
+			}
+		]
+	},
+	{
+		"id" : 2,
+		"name" : "Car",
+		"IMGURL" : "https://i.ibb.co/xJY1kMf/Frame-2.png",
+		"Category" : [
+			{
+				"id" : "BDCAR1",
+				"CategoryName" : "Car",
+				"Seat" : 4,
+				"Price" : 280,
+				"RideImage" : "https://i.ibb.co/xJY1kMf/Frame-2.png"
+			},
+			{
+				"id" : "BDCAR2",
+				"CategoryName" : "Car",
+				"Seat" : 4,
+				"Price" : 320,
+				"RideImage" : "https://i.ibb.co/xJY1kMf/Frame-2.png"
+			},
+			{
+				"id" : "BDCAR3",
+				"CategoryName" : "Car",
+				"Seat" : 4,
+				"Price" : 120,
+				"RideImage" : "https://i.ibb.co/xJY1kMf/Frame-2.png"
+			},
+			{
+				"id" : "BDCAR4",
+				"CategoryName" : "Car",
+				"Seat" : 3,
+				"Price" : 468,
+				"RideImage" : "https://i.ibb.co/xJY1kMf/Frame-2.png"
+			},
+			{
+				"id" : "BDCAR5",
+				"CategoryName" : "Car",
+				"Seat" : 2,
+				"Price" : 608,
+				"RideImage" : "https://i.ibb.co/xJY1kMf/Frame-2.png"
+			}
+		]
+	},
+	{
+		"id" : 3,
+		"name" : "Bus",
+		"IMGURL" : "https://i.ibb.co/yFfkpDt/Frame-1.png",
+		"Category" : [
+			{
+				"id" : "BDBUS1",
+				"CategoryName" : "Bus",
+				"Seat" : 20,
+				"Price" : 55,
+				"RideImage" : "https://i.ibb.co/yFfkpDt/Frame-1.png"
+			},
+			{
+				"id" : "BDBUS2",
+				"CategoryName" : "Bus",
+				"Seat" : 45,
+				"Price" : 30,
+				"RideImage" : "https://i.ibb.co/yFfkpDt/Frame-1.png"
+			},
+			{
+				"id" : "BDBUS3",
+				"CategoryName" : "Bus",
+				"Seat" : 50,
+				"Price" : 40,
+				"RideImage" : "https://i.ibb.co/yFfkpDt/Frame-1.png"
+			},
+			{
+				"id" : "BDBUS4",
+				"CategoryName" : "Bus",
+				"Seat" : 30,
+				"Price" : 45,
+				"RideImage" : "https://i.ibb.co/yFfkpDt/Frame-1.png"
+			},
+			{
+				"id" : "BDBUS5",
+				"CategoryName" : "Bus",
+				"Seat" : 10,
+				"Price" : 120,
+				"RideImage" : "https://i.ibb.co/yFfkpDt/Frame-1.png"
+			}
+		]
+	},
+	{
+		"id" : 4,
+		"name" : "Train",
+		"IMGURL" : "https://i.ibb.co/L9MXTxK/Group.png",
+		"Category" : [
+			{
+				"id" : "BDTRN1",
+				"CategoryName" : "Train",
+				"Seat" : 200,
+				"Price" : 45,
+				"RideImage" : "https://i.ibb.co/L9MXTxK/Group.png"
+			},
+			{
+				"id" : "BDTRN2",
+				"CategoryName" : "Train",
+				"Seat" : 120,
+				"Price" : 90,
+				"RideImage" : "https://i.ibb.co/L9MXTxK/Group.png"
+			},
+			{
+				"id" : "BDTRN3",
+				"CategoryName" : "Train",
+				"Seat" : 100,
+				"Price" : 150,
+				"RideImage" : "https://i.ibb.co/L9MXTxK/Group.png"
+			},
+			{
+				"id" : "BDTRN4",
+				"CategoryName" : "Train",
+				"Seat" : 150,
+				"Price" : 100,
+				"RideImage" : "https://i.ibb.co/L9MXTxK/Group.png"
+			},
+			{
+				"id" : "BDTRN5",
+				"CategoryName" : "Train",
+				"Seat" : 60,
+				"Price" : 450,
+				"RideImage" : "https://i.ibb.co/L9MXTxK/Group.png"
+			}
+		]
+	}
+]
