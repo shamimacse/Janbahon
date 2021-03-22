@@ -53,7 +53,6 @@ const Login = () => {
             });
     };
 
-    // SignIn With GitHub
     const handleGithubSignIn = async () => {
         const github = new firebase.auth.GithubAuthProvider();
         firebase
@@ -61,7 +60,6 @@ const Login = () => {
             .signInWithPopup(github)
             .then((result) => {
                 setUser(result.user);
-                // console.log(result);
                 setLoggedInUser(result.user);
                 history.replace(from);
             }).catch((error) => {
@@ -70,12 +68,10 @@ const Login = () => {
             });
     }
 
-    // Handle Registration
     const { register, handleSubmit, errors, watch } = useForm();
     const password = useRef({});
     password.current = watch('password', '');
 
-    // Update User Name On Firebase Database
     const updateUser = (name) => {
         const user = firebase.auth().currentUser;
         user
@@ -95,10 +91,8 @@ const Login = () => {
                 });
             });
     };
-    // On Submit Handler
     const onSubmit = (data) => {
         const { email, password, name } = data;
-        // console.log('clicked');
         if (isSignedIn) {
             firebase
                 .auth()

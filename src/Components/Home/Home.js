@@ -8,7 +8,6 @@ const Home = () => {
     useEffect(() => {
         setDatabase(Data)
     }, []);
-    // console.log("This", database[0].name)
     return (
         <>
             <div className="poster">

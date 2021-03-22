@@ -44,7 +44,6 @@ const RideDestination = () => {
                     }
                 </div>
                 <div className="RightDestiGoolgeMap">
-                    {/* <img src={mapImage} alt=""/> */}
                     <GoogleMap></GoogleMap>
                 </div>
             </div>
