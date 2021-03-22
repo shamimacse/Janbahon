@@ -3,8 +3,6 @@ import { useParams } from 'react-router';
 import './RideDestination.css';
 import data from '../../data/data.json';
 import Locations from '../Locations/Locations';
-import mapImage from '../../media/Map.png';
-import { Map, GoogleApiWrapper } from 'google-maps-react';
 import GoogleMap from '../GoogleMap/Map';
 
 const RideDestination = () => {

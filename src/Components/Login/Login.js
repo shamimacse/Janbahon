@@ -5,9 +5,7 @@ import "./Login.css";
 import firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from '../Firebase/Firebase.config';
-import {
-    BrowserRouter as Router,
-    useHistory,
+import {useHistory,
     useLocation
 } from "react-router-dom";
 import GoolgeIcon from "../../media/social-icon/google.svg";

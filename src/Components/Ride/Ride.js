@@ -1,9 +1,6 @@
 import React from 'react';
 import './Ride.css';
-import {
-    BrowserRouter as Router,
-    Link,
-} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const Ride = (props) => {
     const { name, IMGURL } = props.ride;

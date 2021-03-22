@@ -1,11 +1,7 @@
 import React, { useContext } from 'react';
 import './Header.css';
-import Logo from '../../media/logo.svg';
 import { UserContext } from '../../App';
-import {
-    BrowserRouter as Router,
-    Link
-} from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const Header = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
