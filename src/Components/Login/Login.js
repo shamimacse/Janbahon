@@ -28,7 +28,7 @@ const Login = () => {
         updateUser: false
     });
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
-
+console.log(loggedInUser);
     if (!firebase.apps.length) {
         firebase.initializeApp(firebaseConfig);
     } else {
